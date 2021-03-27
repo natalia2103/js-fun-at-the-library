@@ -1,7 +1,5 @@
 
 function shelfBook(title, sciFiShelf) {
-  // console.log('title', title);
-  // console.log('shelf', sciFiShelf);
   if (sciFiShelf.length < 3) {
       return sciFiShelf.unshift(title);
     }

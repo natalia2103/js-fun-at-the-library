@@ -1,15 +1,10 @@
-function createTitle() {
 
-}
 
 function createTitle(title) {
   return `The ${title}`;
 }
 
-function buildMainCharacter() {
 
-
-}
 
 function buildMainCharacter(name, age, pronouns) {
   var newCharacter = {
@@ -17,19 +12,10 @@ function buildMainCharacter(name, age, pronouns) {
   age: age,
   pronouns: pronouns,
 }
-return newCharacter
+  return newCharacter
 }
 
 
-function saveReview() {
-
-
-}
-
-function saveReview(newReview, reviews) {
-  return reviews.push(newReview)
-
-}
 
 function saveReview(newReview, reviews) {
   if (!reviews.length) {
@@ -43,7 +29,7 @@ function saveReview(newReview, reviews) {
       return reviews
   }
 }
-return reviews;
+  return reviews;
 }
 
 
